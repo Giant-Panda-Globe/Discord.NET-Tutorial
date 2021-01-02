@@ -34,6 +34,7 @@ namespace DiscordNetTutorial.Core.Handlers
             return Task.CompletedTask;
         }
 
+
         private async Task Message_Event(SocketMessage arg)
         {
             var Message = arg as SocketUserMessage;

@@ -13,18 +13,18 @@ namespace DiscordNetTutorial.Core.Handlers
     {
         private CommandService Commands { get; set; }
         private ILogger Logger { get; set; }
-        private IServiceProvider _Services { get; set; }
+        private IServiceProvider Services { get; set; }
 
-        public CommandHandler(IServiceProvider Services)
+        public CommandHandler(IServiceProvider services)
         {
-            Commands = Services.GetRequiredService<CommandService>();
-            Logger = Services.GetRequiredService<ILogger>();
-            _Services = Services;
+            Commands = services.GetRequiredService<CommandService>();
+            Logger = services.GetRequiredService<ILogger>();
+            Services = services;
         }
 
         public async Task InitAsync()
         {
-            await Commands.AddModulesAsync(Assembly.GetEntryAssembly(), _Services);
+            await Commands.AddModulesAsync(Assembly.GetEntryAssembly(), Services);
             foreach (var command in Commands.Commands)
                 Logger.Information($"Command {command.Name} was loaded.");
         }

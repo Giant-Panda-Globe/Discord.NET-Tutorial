@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\korea\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\korea\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_DiscordNetTutorial.-934189313.00" t="ExcludeRecursive" />
+    <e p="C:\Users\korea\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\korea\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\korea\source\repos\DiscordNetTutorial" t="IncludeFlat">
+      <e p="DiscordNetTutorial" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core" t="Include">
+          <e p="Bot.cs" t="Include" />
+          <e p="Commands" t="Include">
+            <e p="InformationCommands.cs" t="Include" />
+          </e>
+          <e p="Config.cs" t="Include" />
+          <e p="Handlers" t="Include">
+            <e p="CommandHandler.cs" t="Include" />
+            <e p="EventHandler.cs" t="Include" />
+          </e>
+          <e p="Utilites" t="Include">
+            <e p="Other.cs" t="Include" />
+            <e p="Random.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DiscordNetTutorial.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DiscordNetTutorial.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DiscordNetTutorial.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
